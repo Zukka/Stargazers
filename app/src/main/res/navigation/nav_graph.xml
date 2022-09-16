@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.zukka.stargazers.FirstFragment"
+        tools:layout="@layout/fragment_first">
+        <action
+            android:id="@+id/action_FirstFragment_to_stargazersFragment"
+            app:destination="@id/stargazersFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/stargazersFragment"
+        android:name="com.zukka.stargazers.StargazersFragment"
+        tools:layout="@layout/fragment_stargazers" >
+        <argument
+            android:name="stargazers"
+            app:argType="com.zukka.stargazers.network.StargazerPropertyList" />
+    </fragment>
+</navigation>
