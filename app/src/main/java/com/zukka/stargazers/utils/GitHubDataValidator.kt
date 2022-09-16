@@ -3,7 +3,7 @@ package com.zukka.stargazers.utils
 import java.util.regex.Matcher
 import java.util.regex.Pattern
 
-class GitHubDataValidator() {
+class GitHubDataValidator {
 
     private lateinit var _username: String
     private lateinit var _gitHubRepositoryName: String

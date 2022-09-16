@@ -7,7 +7,6 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.zukka.stargazers.enums.GitHubValidatorResult
 import com.zukka.stargazers.network.GitHubApi
-import com.zukka.stargazers.network.GitHubApiService
 import com.zukka.stargazers.network.StargazerProperty
 import com.zukka.stargazers.utils.ConnectionChecker
 import com.zukka.stargazers.utils.GitHubDataValidator

@@ -5,7 +5,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.animation.AnimationUtils
-import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.zukka.stargazers.databinding.FragmentFirstBinding
@@ -58,7 +57,7 @@ class FirstFragment : Fragment() {
     }
 
     private fun setSearchButtonListener() {
-        _binding!!.search!!.setOnClickListener {
+        _binding!!.search.setOnClickListener {
             if (!connectionStatus())
                 return@setOnClickListener
 
