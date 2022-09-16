@@ -6,11 +6,11 @@
         <entry key="app/src/main/res/drawable/dialog_bg.xml" value="0.224" />
         <entry key="app/src/main/res/drawable/ic_broken_image.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/loading_img.xml" value="0.1" />
-        <entry key="app/src/main/res/layout-land/fragment_first.xml" value="0.37567567567567567" />
+        <entry key="app/src/main/res/layout-land/fragment_first.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.21458333333333332" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.21458333333333332" />
         <entry key="app/src/main/res/layout/dialog_error.xml" value="0.21614583333333334" />
-        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.21458333333333332" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_stargazers.xml" value="0.1" />
         <entry key="app/src/main/res/layout/list_item_view.xml" value="0.21614583333333334" />
         <entry key="app/src/main/res/layout/list_view_item.xml" value="0.1663286004056795" />
