@@ -1,5 +1,4 @@
 <resources>
-    <dimen name="fab_margin">16dp</dimen>
     <dimen name="star_size">42dp</dimen>
     <dimen name="moon_size">84dp</dimen>
     <dimen name="error_size">32dp</dimen>
