@@ -7,4 +7,7 @@
     <string name="close">Close</string>
     <string name="connection_error">Connection error!</string>
     <string name="no_stargazers">No stargazer.</string>
+    <string name="error">Error</string>
+    <string name="moon_image">Moon image</string>
+    <string name="star_image">Star image</string>
 </resources>

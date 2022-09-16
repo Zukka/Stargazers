@@ -8,7 +8,8 @@
 
     <ImageView
         android:id="@+id/image_error"
-        style="@style/error_image"/>
+        style="@style/error_image"
+        android:contentDescription="@string/error" />
 
     <TextView
         android:id="@+id/text_error"
@@ -17,7 +18,7 @@
         android:paddingVertical="16dp"
         android:text="@string/connection_error"
         android:textAlignment="center"
-        android:textSize="16dp" />
+        android:textSize="16sp" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/close_dialog_connection_error"
@@ -28,5 +29,5 @@
         android:textColor="@color/white"
         android:text="@string/close"
         android:textAllCaps="false"
-        android:textSize="12dp" />
+        android:textSize="12sp" />
 </LinearLayout>

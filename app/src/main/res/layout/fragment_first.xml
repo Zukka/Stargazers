@@ -9,6 +9,7 @@
     <ImageView
         android:id="@+id/moon"
         style="@style/moon"
+        android:contentDescription="@string/moon_image"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -17,6 +18,7 @@
     <ImageView
         android:id="@+id/star_one"
         style="@style/star"
+        android:contentDescription="@string/star_image"
         android:layout_marginEnd="24dp"
         android:src="@drawable/star"
         app:layout_constraintEnd_toStartOf="@+id/star_four"
@@ -25,6 +27,7 @@
     <ImageView
         android:id="@+id/star_two"
         style="@style/star"
+        android:contentDescription="@string/star_image"
         android:layout_marginTop="32dp"
         android:src="@drawable/star"
         app:layout_constraintEnd_toEndOf="@+id/moon"
@@ -34,6 +37,7 @@
     <ImageView
         android:id="@+id/star_three"
         style="@style/star"
+        android:contentDescription="@string/star_image"
         android:layout_marginStart="4dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="24dp"
@@ -45,6 +49,7 @@
     <ImageView
         android:id="@+id/star_four"
         style="@style/star"
+        android:contentDescription="@string/star_image"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:src="@drawable/star"
