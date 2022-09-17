@@ -1,7 +1,7 @@
 # Stargazers
 
 Simple mobile application to display the list of stargazers in a repository.
-Type the username and the repository name and press search button.
+Type the username, the repository name and press search button.
 
 ## Unit Test
 The validation of GitHub username and repository name is covered by Unit test.
